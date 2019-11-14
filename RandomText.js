@@ -8,7 +8,7 @@ var text=[
 'F'
 ]
 // all arrays must have equal length !
-var text1=['créatif','passionné','aimable','organisé','persévérant'];
+var text1=['créatif','passionné','curieux','organisé','persévérant'];
 var text2=['jeux vidéos','logiciels','effets visuels','dessins','musiques'];
 var text3=['programme','dessine','compose','optimise','planifie'];
 
