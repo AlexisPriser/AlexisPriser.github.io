@@ -92,7 +92,7 @@ text-align: center;
 .NavLink
 {
   float: left;
-  display: block;
+  /*display: block;*/
   color: #f2f2f2;
   text-align: center;
   padding: 1% 1%;
@@ -185,7 +185,14 @@ font-size:200%;
 /*display:inline-block;*/
 vertical-align:middle;
 }
-
+.fr
+{
+	
+}
+.eng
+{
+	display:none;
+}
 #B1
 {
 font-family:"Arial",Times;
@@ -212,6 +219,11 @@ word-break: break-all;
 white-space: normal;
 padding:5% 15%;
 line-height:1.64;
+width:100%;
+}
+.profile
+{
+width:100%;
 }
 .row1
 {
@@ -339,7 +351,7 @@ color:white;
 #B6
 {
 font-family:"Arial",Times;
-height:auto;
+height:400px;
 font-size:65%;
 background-color:#206040;
 color:white;

@@ -21,18 +21,43 @@
 	<h1>Portfolio Alexis PRISER</h1>
 	</div>
 	
-	<div id="navHolder hidden"></div>
+	<!--
+	<div id="google_translate_element"></div>
+	<script type="text/javascript">// <![CDATA[
+	function googleTranslateElementInit() {
+	new google.translate.TranslateElement({pageLanguage: 'fr', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+	}
+	// ]]></script>
+	<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
+	-->
 	
+	<div id="navHolder hidden"></div>
+
 	<div id="navbar">
+	<div class="fr">
 	  <div class="NavLink" onclick='Scroll("B2")'>Profil</div>
 	  <div class="NavLink" onclick='Scroll("B3")'>Expériences</div>
 	  <div class="NavLink" onclick='Scroll("B4")'>Compétences</div>
 	  <div class="NavLink" onclick='Scroll("B5")'>Projets</div>
 	  <div class="NavLink" onclick='Scroll("B6")'>Contacts</div>
 	  <a href=".\download\CV_Alexis_PRISER.pdf" target="_blank"><div class="NavLink">Mon CV</div></a>
+	</div>
+	<div class="eng">
+	  <div class="NavLink" onclick='Scroll("B2")'>Profile</div>
+	  <div class="NavLink" onclick='Scroll("B3")'>Experiences</div>
+	  <div class="NavLink" onclick='Scroll("B4")'>Abilities</div>
+	  <div class="NavLink" onclick='Scroll("B5")'>Projects</div>
+	  <div class="NavLink" onclick='Scroll("B6")'>Contacts</div>
+	  <a href=".\download\CV_Alexis_PRISER.pdf" target="_blank"><div class="NavLink">My CV</div></a>
+	</div>
+	  <div class="NavLink fr" style="float:right" onclick='newText(1); Switch(1);'>English</div>
+	  <div class="NavLink eng" style="float:right" onclick='newText(0); Switch(0);'>Français</div>
+	  
 	  
 	</div>
-
+	
+	
+	
 	<script type="text/javascript" src=NavBarMove.js></script>
 	
 	<div id=B1>
@@ -53,15 +78,32 @@
 	<div id=B2>
 	
 		<div class=profile>
+		<div class="fr">
 		<h2>Profil</h2>
+		</div>
+		<div class="eng">
+		<h2>Profile</h2>
+		</div>
+		
 			<div class="row1 col-sm-3 col-md-6 col-lg-4"><!-- row1-->
-			<h3>A mon propos</h3>
-			<p>
-			Fort de mon  BTS Systèmes Numériques Informatiques et Réseaux, je suis un développeur junior passionné par la programmation.
-			</br>Curieux, je suis en recherche permanente de solutions innovantes.
-			</br>J'aime quand le code est bien organisé et optimisé pour faire grandir les projets.
-			</br>Travailler en équipe, échanger, développer, sont des moteurs qui me permettent de m'investir dans mes missions.
-			</p>
+				<div class="fr">
+				<h3>A mon propos</h3>
+				<p>
+				Fort de mon  BTS Systèmes Numériques Informatiques et Réseaux, je suis un développeur junior passionné par la programmation.
+				</br>Curieux, je suis en recherche permanente de solutions innovantes.
+				</br>J'aime quand le code est bien organisé et optimisé pour faire grandir les projets.
+				</br>Travailler en équipe, échanger, développer, sont des moteurs qui me permettent de m'investir dans mes missions.
+				</p>
+				</div>
+				<div class="eng">
+				<h3>About me</h3>
+				<p>
+				Having aquired my BTS of Numerical Systems and Networks, I am junior developer passionate about programming.
+				</br>Curious, I am in constant search for innovative solutions.
+				</br>I like it when the code is well organized and optimized to make projects grow.
+				</br>Working as a team, exchanging, developing, are key factors that allow me to invest in my missions.
+				</p>
+				</div>
 			</div>
 			
 			<div class="row1 col-sm-3 col-md-6 col-lg-4"><!-- row1-->
@@ -69,30 +111,59 @@
 			</div>
 			
 			<div class="row1 col-sm-3 col-md-6 col-lg-4"><!-- row1-->
-			<h3>Détails</h3>
-			<p>
-			<strong>Nom:</strong>
-			</br>
-			Alexis PRISER
-			</br>
-			<strong>Age:</strong>
-			</br>
-			22 ans
-			</br>
-			<strong>Lieu:</strong>
-			</br>
-			7 bis rue de la forêt 
-			</br>
-			78690 Les Essarts Le Roi
-			</br>
-			<strong>Tél:</strong>
-			</br>
-			06 81 99 17 39
-			</br>
-			<strong>Mail:</strong>
-			</br>
-			priseralexis78@gmail.com
-			</p>
+				<div class="fr">
+				<h3>Détails</h3>
+				<p>
+				<strong>Nom:</strong>
+				</br>
+				Alexis PRISER
+				</br>
+				<strong>Age:</strong>
+				</br>
+				22 ans
+				</br>
+				<strong>Lieu:</strong>
+				</br>
+				7 bis rue de la forêt 
+				</br>
+				78690 Les Essarts Le Roi
+				</br>
+				<strong>Tél:</strong>
+				</br>
+				06 81 99 17 39
+				</br>
+				<strong>Mail:</strong>
+				</br>
+				priseralexis78@gmail.com
+				</p>
+				</div>
+				
+				<div class="eng">
+				<h3>Details</h3>
+				<p>
+				<strong>Name:</strong>
+				</br>
+				Alexis PRISER
+				</br>
+				<strong>Age:</strong>
+				</br>
+				22 ans
+				</br>
+				<strong>Location:</strong>
+				</br>
+				7 bis rue de la forêt 
+				</br>
+				78690 Les Essarts Le Roi
+				</br>
+				<strong>Tél:</strong>
+				</br>
+				06 81 99 17 39
+				</br>
+				<strong>Mail:</strong>
+				</br>
+				priseralexis78@gmail.com
+				</p>
+				</div>
 
 			</div>
 			
@@ -101,52 +172,110 @@
 	
 	<div id=B3>
 		<div class=Experience>
+		<div class="fr">
 		<h2>Expériences</h2>
+		</div>
+		<div class="eng">
+		<h2>Experiences</h2>
+		</div>
 			<div class="row2 col-sm-3 col-md-6 col-lg-12"><!-- row2-->
-			<h3>Etudes</h3>
-				<div class=ExperienceText>
-				
-					<div class=XP_name>
-					<h4>Lycée Agora</h4>
-					<p>2016 - 2018</p>
-					</div>
+				<div class="fr">
+				<h3>Etudes</h3>
+					<div class=ExperienceText>
 					
-					<div class=XP_desc>
-					<h4>BTS Sytèmes Numériques Informatiques et Réseaux</h4>
-					<p>
-					Pendant ma première année j'ai appris les différents langages de programmation web(HTML,CSS,PHP,SQL) ainsi que le langage C, la manipulation et création de réseaux locaux.
-					</br>Ma seconde année m'a initié au langages orientés objets tel que le Java et le C++.
-					</br>J'ai d'ailleurs programmé en Java une application Android de géolocalisation dans le contexte d'un musée.
-					</p>
+						<div class=XP_name>
+						<h4>Lycée Agora</h4>
+						<p>2016 - 2018</p>
+						</div>
+						
+						<div class=XP_desc>
+						<h4>BTS Sytèmes Numériques Informatiques et Réseaux</h4>
+						<p>
+						Pendant ma première année j'ai appris les différents langages de programmation web(HTML,CSS,PHP,SQL) ainsi que le langage C, la manipulation et création de réseaux locaux.
+						</br>Ma seconde année m'a initié au langages orientés objets tel que le Java et le C++.
+						</br>J'ai d'ailleurs programmé en Java une application Android de géolocalisation dans le contexte d'un musée.
+						</p>
+						</div>
+					</div>
+					<div class=ExperienceText>
+					
+						<div class=XP_name>
+						<h4>Lycée Louis Bascant</h4>
+						<p>2013 - 2016</p>
+						</div>
+						
+						<div class=XP_desc>
+						<h4>Baccalauréat STI2D,option SIN</h4>
+						<p>
+						Ces études au lycée m'ont permis de m’intéresser aux nouvelles technologies.
+						</br>Ayant apprécié le codage sur Arduino pour un projet de fin d'année, j'ai alors décidé de m'orienter vers des études informatiques.
+						</p>
+						</div>
 					</div>
 				</div>
-				<div class=ExperienceText>
 				
-					<div class=XP_name>
-					<h4>Lycée Louis Bascant</h4>
-					<p>2013 - 2016</p>
-					</div>
+				<div class="eng">
+				<h3>Educations</h3>
+					<div class=ExperienceText>
 					
-					<div class=XP_desc>
-					<h4>Baccalauréat STI2D,option SIN</h4>
-					<p>
-					Ces études au lycée m'ont permis de m’intéresser aux nouvelles technologies.
-					</br>Ayant apprécié le codage sur Arduino pour un projet de fin d'année, j'ai alors décidé de m'orienter vers des études informatiques.
-					</p>
+						<div class=XP_name>
+						<h4>Lycée Agora</h4>
+						<p>2016 - 2018</p>
+						</div>
+						
+						<div class=XP_desc>
+						<h4>BTS of Numerical Systems and Networks</h4>
+						<p>
+						During my first year I learned the different languages ​​of web programming (HTML, CSS, PHP, SQL) as well as the C language, the manipulation and creation of local networks.
+						</br>My second year introduced me to object-oriented languages ​​such as Java and C ++.
+						</br>I also programmed in Java an Android geolocation application in the context of a museum.
+						</p>
+						</div>
+					</div>
+					<div class=ExperienceText>
+					
+						<div class=XP_name>
+						<h4>Lycée Louis Bascant</h4>
+						<p>2013 - 2016</p>
+						</div>
+						
+						<div class=XP_desc>
+						<h4>High School diploma STI2D,option SIN</h4>
+						<p>
+						These studies in high school allowed me to be interested about new technologies.
+						</br>Having enjoyed coding on Arduino for a year-end project, I decided to move towards computer science studies.
+						</p>
+						</div>
 					</div>
 				</div>
 			</div>
 			
 			<div class="row2 col-sm-3 col-md-6 col-lg-12"><!-- row2-->
-			<h3>Professionnelles</h3>
-				<div class=ExperienceText>
-					<div class=XP_name>
-					<h4>Centre Hospitalier de Rambouillet</h4>
-					<p>mai 2017 - juillet 2017</p>
+				<div class="fr">
+				<h3>Professionnelles</h3>
+					<div class=ExperienceText>
+						<div class=XP_name>
+						<h4>Centre Hospitalier de Rambouillet</h4>
+						<p>mai 2017 - juillet 2017</p>
+						</div>
+						<div class=XP_desc>
+						<h4>Webdesigner (stage)</h4>
+						<p>A la fin de ma première année de BTS, j'ai fait stage de 6 semaines où j'ai réparé le site web de l’hôpital, analysé sa structure et reconstruit celle-ci via deux CMS (joomla et wordpress).</p>
+						</div>
 					</div>
-					<div class=XP_desc>
-					<h4>Webdesigner (stage)</h4>
-					<p>A la fin de ma première année de BTS, j'ai fait stage de 6 semaines où j'ai réparé le site web de l’hôpital, analysé sa structure et reconstruit celle-ci via deux CMS (joomla et wordpress).</p>
+				</div>
+				
+				<div class="eng">
+				<h3>Careers</h3>
+					<div class=ExperienceText>
+						<div class=XP_name>
+						<h4>Hospital Center of Rambouillet</h4>
+						<p>may 2017 - july 2017</p>
+						</div>
+						<div class=XP_desc>
+						<h4>Webdesigner (internship)</h4>
+						<p>At the end of my first year of BTS, I interned for 6 weeks where I repaired the website of the hospital, analyzed its structure and rebuilt it via two CMS (joomla and wordpress).</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -155,10 +284,20 @@
 	
 	<div id=B4>
 		<div class=DomainesCompetences>
-		<h2>Compétences</h2>
+			<div class="fr">
+			<h2>Compétences</h2>
+			</div>
+			<div class="eng">
+			<h2>Abilities</h2>
+			</div>
 		
 			<div class="row2"><!-- row2-->
+			<div class="fr">
 			<h3>Codes</h3>
+			</div>
+			<div class="eng">
+			<h3>Code</h3>
+			</div>
 				<div class="col-sm-12 col-md-6 col-lg-6"><!-- row3-->
 					<div class="rowDC"></div><div class="rowStar"></div>
 				</div>
@@ -168,17 +307,43 @@
 			</div>
 			
 			<div class=row2><!-- row2-->
+			<div class="fr">
 			<h3>Langues</h3>
+			</div>
+			<div class="eng">
+			<h3>Languages</h3>
+			</div>
 				<div class="row3 col-sm-12 col-md-6 col-lg-6"><!-- row3-->
-					<div class="rowDC"></div><div class="rowStar"></div>
+					<div class="rowDC">
+						<div class="fr">
+						Français (langue maternelle)
+						</div>
+						<div class="eng">
+						French (Mother tongue)
+						</div>
+					</div>
+					<div class="rowStar"></div>
 				</div>
 				<div class="row3 col-sm-12 col-md-6 col-lg-6"><!-- row3-->
-					<div class="rowDC"></div><div class="rowStar"></div>
+					<div class="rowDC">
+						<div class="fr">
+						Anglais (courant)
+						</div>
+						<div class="eng">
+						English (fluent)
+						</div>
+					</div>
+					<div class="rowStar"></div>
 				</div>
 			</div>
 			
 			<div class=row2><!-- row2-->
+			<div class="fr">
 			<h3>Outils</h3>
+			</div>
+			<div class="eng">
+			<h3>Tools</h3>
+			</div>
 				<div class="col-sm-12 col-md-6 col-lg-6"><!-- row3-->
 					<div class="rowDC"></div><div class="rowStar"></div>
 				</div>
@@ -193,7 +358,12 @@
 	
 	<div id=B5>
 		<div class=Projets>
+		<div class="fr">
 		<h2>Projets</h2>
+		</div>
+		<div class="eng">
+		<h2>Projects</h2>
+		</div>
 			<table class=myprojets id=table_projets>
 				<tr>
 					
@@ -216,17 +386,34 @@
 
 	  <!-- Modal content -->
 	  <div class="modal-content">
-		<div class="modal-header" style="background-color:#ff0066">
-		  <span class="close">&times;</span>
-		  <h2>NetherEscape</h2>
+		<div class="fr">
+			<div class="modal-header" style="background-color:#ff0066">
+			  <span class="close">&times;</span>
+			  <h2>NetherEscape</h2>
+			</div>
+			<div class="modal-body">
+			  <p>Ce projet conciste à créer un jeu video sur GameMaker en se basant sur NuclearThrone: un rogue-like en vue du dessus, où il faut tirer sur tout se qui bouge pour progresser dans des niveaux hostiles générés aléatoirement.</p>
+			  <p>Le jeu est toujours en développement et si vous ètes intéressé, vous pourrez trouver le lien de téléchargement sur ma page itch.io</p>
+			  <p></p>
+			</div>
+			<div class="modal-footer" style="background-color:#ff0066">
+			  <h3><a href="https://estrico.itch.io/netherescape" target="_blank">Lien du jeu</a></h3>
+			</div>
 		</div>
-		<div class="modal-body">
-		  <p>Ce projet conciste à créer un jeu video sur GameMaker en se basant sur NuclearThrone: un rogue-like en vue du dessus, où il faut tirer sur tout se qui bouge pour progresser dans des niveaux hostiles générés aléatoirement.</p>
-		  <p>Le jeu est toujours en développement et si vous ètes intéressé, vous pourrez trouver le lien de téléchargement sur ma page itch.io</p>
-		  <p></p>
-		</div>
-		<div class="modal-footer" style="background-color:#ff0066">
-		  <h3><a href="https://estrico.itch.io/netherescape" target="_blank">Lien du jeu</a></h3>
+		
+		<div class="eng">
+			<div class="modal-header" style="background-color:#ff0066">
+			  <span class="close">&times;</span>
+			  <h2>NetherEscape</h2>
+			</div>
+			<div class="modal-body">
+			  <p>This project aims to create a video game on GameMaker based on NuclearThrone: a top-down rogue-like, where you have to shoot everything that moves to progress in proceduraly generated hostile levels.</p>
+			  <p>The game is still in development and if you are interested, you can find the download link on my itch.io page</p>
+			  <p></p>
+			</div>
+			<div class="modal-footer" style="background-color:#ff0066">
+			  <h3><a href="https://estrico.itch.io/netherescape" target="_blank">Game link</a></h3>
+			</div>
 		</div>
 	  </div>
 	</div>
@@ -235,16 +422,32 @@
 
 	  <!-- Modal content -->
 	  <div class="modal-content">
-		<div class="modal-header" style="background-color:#ff9900">
-		  <span class="close">&times;</span>
-		  <h2>ScreenSaver</h2>
+		<div class="fr">
+			<div class="modal-header" style="background-color:#ff9900">
+			  <span class="close">&times;</span>
+			  <h2>ScreenSaver</h2>
+			</div>
+			<div class="modal-body">
+			  <p>Ce projet fait sur GameMaker a pour but d'être un entrainement afin de  faire des effets visuels variés</p>
+			  <p>Ce projet est toujours en cours de construction.</p>
+			</div>
+			<div class="modal-footer" style="background-color:#ff9900">
+			  <h3></h3>
+			</div>
 		</div>
-		<div class="modal-body">
-		  <p>Ce projet fait sur GameMaker a pour but d'être un entrainement afin de  faire des effets visuels variés</p>
-		  <p>Ce projet est toujours en cours de construction.</p>
-		</div>
-		<div class="modal-footer" style="background-color:#ff9900">
-		  <h3></h3>
+		
+		<div class="eng">
+			<div class="modal-header" style="background-color:#ff9900">
+			  <span class="close">&times;</span>
+			  <h2>ScreenSaver</h2>
+			</div>
+			<div class="modal-body">
+			  <p>This project done on GameMaker aims to be a training to make various visual effects</p>
+			  <p>This project is still under development.</p>
+			</div>
+			<div class="modal-footer" style="background-color:#ff9900">
+			  <h3></h3>
+			</div>
 		</div>
 	  </div>
 
@@ -254,16 +457,33 @@
 
 	  <!-- Modal content -->
 	  <div class="modal-content">
-		<div class="modal-header">
-		  <span class="close">&times;</span>
-		  <h2>LMMS</h2>
+		<div class="fr">
+			<div class="modal-header">
+			  <span class="close">&times;</span>
+			  <h2>LMMS</h2>
+			</div>
+			<div class="modal-body">
+			  <p>LMMS est un logiciel gratuit me permetant de composer facilement differentes musiques qui finaliseront mes projets de jeux.</p>
+			  <p>Je débute dans ce milieu.</p>
+			</div>
+			<div class="modal-footer">
+			  <h3></h3>
+			</div>
 		</div>
-		<div class="modal-body">
-		  <p>LMMS est un logiciel gratuit me permetant de composer facilement differentes musiques qui finaliseront mes projets de jeux.</p>
-		  <p>Je débute dans ce milieu.</p>
-		</div>
-		<div class="modal-footer">
-		  <h3></h3>
+		
+		<div class="eng">
+			<div class="modal-header">
+			  <span class="close">&times;</span>
+			  <h2>LMMS</h2>
+			</div>
+			<div class="modal-body">
+			  <p>
+				LMMS is a free software allowing me to easily compose different music that will finalize my gaming projects.</p>
+			  <p>I start in this environment.</p>
+			</div>
+			<div class="modal-footer">
+			  <h3></h3>
+			</div>
 		</div>
 	  </div>
 
@@ -280,7 +500,7 @@
 			
 				<div class="col-sm-12 col-md-6 col-lg-6"><!-- row4-->
 					<ul class="no-bullets">
-					
+
 					<li>
 					<a href="https://itch.io/profile/estrico" target="_blank"><img src=".\images\itch-icon2.png" alt="itch.io"></img>	https://itch.io/profile/estrico</a>
 					</li>
@@ -295,7 +515,12 @@
 					<a href="mailto:priseralexis78@gmail.com"><img class="rounded" src=".\images\arobase_icon.png" alt="priseralexis78@gmail.com">	priseralexis78@gmail.com</a>
 					</li>
 					<li>
+					<div class="fr">
 					<a href=".\download\CV_Alexis_PRISER.pdf" target="_blank"><img src=".\images\CV_logo.png" alt="CV"></img>	Mon CV</a>
+					</div>
+					<div class="eng">
+					<a href=".\download\CV_Alexis_PRISER.pdf" target="_blank"><img src=".\images\CV_logo.png" alt="CV"></img>	My CV</a>
+					</div>
 					</li>
 					</ul>
 				</div>
@@ -320,4 +545,5 @@
 	-->
 
 	<script type="text/javascript" src=AutoScroll.js></script>
+	<script type="text/javascript" src=TraductionSwitch.js></script>
 </html>
