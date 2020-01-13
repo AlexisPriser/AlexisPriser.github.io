@@ -12,7 +12,7 @@ var skills3=[""];
 //var skills4=["Anglais (courant)"];
 var skills4=[""];
 var skills5=["Eclipse","QT SKD","AndroidStudio","CodeBlocks","GameMaker","Paint.NET","Photoshop","LMMS","3DS Max","Flash","OBS_Studio","Windows","Linux","PackOffice"];
-var skills6=["Joomla","Wordpress","GitHub","Wamp","phpMyAdmin","NotePad++","TeamViewer","Putty","VirtualBox","GitHub"];
+var skills6=["Joomla","Wordpress","GitHub","Wamp","phpMyAdmin","NotePad++","TeamViewer","Putty","VirtualBox",];
 var skillsCollums=[skills1,skills2,skills3,skills4,skills5,skills6];
 
 var rate;
@@ -22,7 +22,7 @@ var rates2=[4,3,4,3];
 var rates3=[5];
 var rates4=[3];
 var rates5=[4,3,5,4,5,5,4,4,2,2,4,5,4,4];
-var rates6=[4,4,2,5,4,5,5,4,4,2];
+var rates6=[4,4,2,5,4,5,5,4,4];
 var ratings=[rates1,rates2,rates3,rates4,rates5,rates6];
 
 var i=0;
